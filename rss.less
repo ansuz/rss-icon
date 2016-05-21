@@ -1,0 +1,76 @@
+.m-rss-icon (@rss-size: 50px, @rss-base: #ffbb52, @rss-fore: #fff) {
+    display:block;
+    width: @rss-size;
+    height: @rss-size;
+    position:relative;
+
+    .icon-bottom {
+        width: @rss-size;
+        height: @rss-size;
+        position:absolute;
+        background: @rss-base;
+        border-radius: @rss-size / 10;
+    }
+
+    .circle{
+        width: @rss-size / 5;
+        height: @rss-size / 5;
+        position:absolute;
+        bottom: @rss-size / 6;
+        left: @rss-size / 6;
+        background: @rss-fore;
+        border-radius: @rss-size / 10;
+        z-index:7;
+    }
+
+    .waves{
+        width: (@rss-size / 150) * 103;
+        height: (@rss-size / 150) * 103;
+        overflow:hidden;
+        position:absolute;
+        bottom: @rss-size / 6;
+        left: @rss-size / 6;
+        z-index:2;
+
+        & > * {
+            border-radius:50%;
+            position:absolute;
+
+            &:nth-child(odd){ background: @rss-base; }
+            &:nth-child(even){ background: @rss-fore; }
+
+            &:nth-child(1){
+                width: @rss-size / 150 * 106;
+                height: @rss-size / 150 * 106;
+                bottom: -(@rss-size / 150 * 53);
+                left: -(@rss-size / 150 * 53);
+                z-index:4;
+            }
+            &:nth-child(2){
+                width: @rss-size / 150 * 140;
+                height: @rss-size / 150 * 140;
+                bottom: -(@rss-size / 150 * 70);
+                left: -(@rss-size / 150 * 70);
+                z-index:3;
+            }
+            &:nth-child(3){
+                width: @rss-size / 150 * 174;
+                height: @rss-size / 150 * 174;
+                bottom: -(@rss-size / 150 * 87);
+                left: -(@rss-size / 150 * 87);
+                z-index:2;
+            }
+            &:nth-child(4){
+                width: @rss-size / 150 * 206;
+                height: @rss-size / 150 * 206;
+                bottom:-(@rss-size / 150 * 103);
+                left: -(@rss-size / 150 * 103);
+                z-index:1;
+            }
+        }
+    }
+}
+
+a.rss-icon {
+    .m-rss-icon();
+}

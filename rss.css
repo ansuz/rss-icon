@@ -1,0 +1,210 @@
+a.rss-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+a.rss-icon .icon-bottom {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: #ffbb52;
+  border-radius: 5px;
+}
+a.rss-icon .circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 8.33333333px;
+  left: 8.33333333px;
+  background: #fff;
+  border-radius: 5px;
+  z-index: 7;
+}
+a.rss-icon .waves {
+  width: 34.33333333px;
+  height: 34.33333333px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 8.33333333px;
+  left: 8.33333333px;
+  z-index: 2;
+}
+a.rss-icon .waves > * {
+  border-radius: 50%;
+  position: absolute;
+}
+a.rss-icon .waves > *:nth-child(odd) {
+  background: #ffbb52;
+}
+a.rss-icon .waves > *:nth-child(even) {
+  background: #fff;
+}
+a.rss-icon .waves > *:nth-child(1) {
+  width: 35.33333333px;
+  height: 35.33333333px;
+  bottom: -17.66666667px;
+  left: -17.66666667px;
+  z-index: 4;
+}
+a.rss-icon .waves > *:nth-child(2) {
+  width: 46.66666667px;
+  height: 46.66666667px;
+  bottom: -23.33333333px;
+  left: -23.33333333px;
+  z-index: 3;
+}
+a.rss-icon .waves > *:nth-child(3) {
+  width: 58px;
+  height: 58px;
+  bottom: -29px;
+  left: -29px;
+  z-index: 2;
+}
+a.rss-icon .waves > *:nth-child(4) {
+  width: 68.66666667px;
+  height: 68.66666667px;
+  bottom: -34.33333333px;
+  left: -34.33333333px;
+  z-index: 1;
+}
+a.rss-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+a.rss-icon .icon-bottom {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: #ffbb52;
+  border-radius: 5px;
+}
+a.rss-icon .circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 8.33333333px;
+  left: 8.33333333px;
+  background: #fff;
+  border-radius: 5px;
+  z-index: 7;
+}
+a.rss-icon .waves {
+  width: 34.33333333px;
+  height: 34.33333333px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 8.33333333px;
+  left: 8.33333333px;
+  z-index: 2;
+}
+a.rss-icon .waves > * {
+  border-radius: 50%;
+  position: absolute;
+}
+a.rss-icon .waves > *:nth-child(odd) {
+  background: #ffbb52;
+}
+a.rss-icon .waves > *:nth-child(even) {
+  background: #fff;
+}
+a.rss-icon .waves > *:nth-child(1) {
+  width: 35.33333333px;
+  height: 35.33333333px;
+  bottom: -17.66666667px;
+  left: -17.66666667px;
+  z-index: 4;
+}
+a.rss-icon .waves > *:nth-child(2) {
+  width: 46.66666667px;
+  height: 46.66666667px;
+  bottom: -23.33333333px;
+  left: -23.33333333px;
+  z-index: 3;
+}
+a.rss-icon .waves > *:nth-child(3) {
+  width: 58px;
+  height: 58px;
+  bottom: -29px;
+  left: -29px;
+  z-index: 2;
+}
+a.rss-icon .waves > *:nth-child(4) {
+  width: 68.66666667px;
+  height: 68.66666667px;
+  bottom: -34.33333333px;
+  left: -34.33333333px;
+  z-index: 1;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon {
+  display: block;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .icon-bottom {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background: blue;
+  border-radius: 50px;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 83.33333333px;
+  left: 83.33333333px;
+  background: orange;
+  border-radius: 50px;
+  z-index: 7;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves {
+  width: 343.33333333px;
+  height: 343.33333333px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 83.33333333px;
+  left: 83.33333333px;
+  z-index: 2;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > * {
+  border-radius: 50%;
+  position: absolute;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(odd) {
+  background: blue;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(even) {
+  background: orange;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(1) {
+  width: 353.33333333px;
+  height: 353.33333333px;
+  bottom: -176.66666667px;
+  left: -176.66666667px;
+  z-index: 4;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(2) {
+  width: 466.66666667px;
+  height: 466.66666667px;
+  bottom: -233.33333333px;
+  left: -233.33333333px;
+  z-index: 3;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(3) {
+  width: 580px;
+  height: 580px;
+  bottom: -290px;
+  left: -290px;
+  z-index: 2;
+}
+a.five-hundred-pixel-blue-and-orange-rss-icon .waves > *:nth-child(4) {
+  width: 686.66666667px;
+  height: 686.66666667px;
+  bottom: -343.33333333px;
+  left: -343.33333333px;
+  z-index: 1;
+}
